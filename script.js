@@ -34,6 +34,3 @@ async function getGames() {
     }
 }
 getGames();
-
-
-// onerror="this.onerror=null; this.src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Ffootball%2F&psig=AOvVaw1JwUcSubrT2caKNZuiyPIp&ust=1725100154638000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJintqvBnIgDFQAAAAAdAAAAABAE';"
