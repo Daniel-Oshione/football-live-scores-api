@@ -8,9 +8,9 @@ async function getGames() {
 
         data.forEach((scores) => {
             liveScores.innerHTML += `<div class="mb-32">
-        <h1 class="text-center mb-9 text-slate-300 font-bold">${scores.leagueName}</h1>
+        <h1 class="text-center mb-9 text-slate-100 font-bold">${scores.leagueName}</h1>
         <hr class="mb-10">
-        <div class="flex justify-evenly items-center">
+        <div class="flex justify-evenly items-center bg-slate-800 p-5 rounded-3xl">
           <div class="text-center flex flex-col items-center">
             <img src="${scores.team1.teamIconUrl}" onerror="this.onerror=null; this.src='./img/icons8-soccer-ball-96.png';" alt="" class="w-32 h-32 rounded-lg mb-4">
             <p class="text-xl font-bold text-slate-200">${scores.team1.teamName}</p>
