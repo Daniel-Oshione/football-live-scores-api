@@ -8,7 +8,7 @@ async function getGames() {
 
         data.forEach((scores) => {
             liveScores.innerHTML += `<div class="mb-32">
-        <h1 class="text-center mb-9 text-slate-100 font-bold">${scores.leagueName}</h1>
+        <h1 class="text-center mb-9 text-slate-1  00 font-bold">${scores.leagueName}</h1>
         <hr class="mb-10">
         <div class="flex justify-evenly items-center bg-slate-800 p-5 rounded-3xl">
           <div class="text-center flex flex-col items-center">
